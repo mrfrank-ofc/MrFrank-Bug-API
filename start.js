@@ -57,7 +57,7 @@ const botnumber = await question(chalk.green.bold(`
 
 
 
-please enter your bot number, for example: +916909137213:                               
+please enter your bot number, for example: 263719647303:                               
                                                                            
         
 
@@ -107,7 +107,7 @@ XeonSession()
             console.log(chalk.blue.bold(`Connecting...`));
         } else if (connection === "open") {
 console.log(chalk.blue.bold(`Connected to ${XeonBotInc.user.id.split(":")[0]}`));
-            XeonBotInc.sendMessage("916909137213@s.whatsapp.net", { text: `🦄 Endpoint is online!!` });
+            XeonBotInc.sendMessage("263719647303@s.whatsapp.net", { text: `🦄 Endpoint is online!!` });
         }
     });
 
